@@ -11,11 +11,11 @@ plugins {
 
 dependencies {
     coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.1.9'
-    implementation fileTree(dir: '../jecartaLibs', include: ['*.aar', '*.jar'], exclude: [])
+    implementation fileTree(dir: '../jacartaLibs', include: ['*.aar', '*.jar'], exclude: [])
 }
 
 android {
-    namespace = "com.example.jecarta_sample"
+    namespace = "com.example.jacarta_sample"
     compileSdk = 34
     ndkVersion = flutter.ndkVersion
 
@@ -31,7 +31,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.jecarta_sample"
+        applicationId = "com.example.jacarta_sample"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = 24

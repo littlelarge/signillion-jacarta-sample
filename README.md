@@ -1,4 +1,4 @@
-# jecarta_sample
+# jacarta_sample
 
 A new Flutter project.
 
